@@ -17,3 +17,9 @@
 
 `npm run start` — запускает сервер   
 `npm run dev` — запускает сервер с hot-reload
+
+## Демонстрация проекта
+
+## ВАЖНО!!! - для корректной работы рекомендуется использовать браузер Mozila Firefox
+
+https://your.mesto.nomoredomains.club
