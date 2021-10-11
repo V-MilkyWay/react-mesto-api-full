@@ -1,0 +1,6 @@
+.popup__container {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    align-items: center;
+}

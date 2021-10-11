@@ -1,0 +1,10 @@
+.form-image__text {
+    display: flex;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    align-self: start;
+    margin-top: 10px;
+}

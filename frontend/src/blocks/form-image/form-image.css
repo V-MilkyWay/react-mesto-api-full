@@ -1,0 +1,11 @@
+.form-image {
+    display: flex;
+    margin: 0;
+    flex-flow: column;
+    align-items: center;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    width: max-content;
+    color: #ffffff;
+}

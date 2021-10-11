@@ -1,0 +1,11 @@
+.form__save-button_type_login {
+    background:#FFFFFF;
+    color: #000000;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__save-button_type_login {
+        margin-top: 216px;
+        margin-bottom: 112px;
+    }
+}

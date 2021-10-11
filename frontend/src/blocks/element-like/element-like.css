@@ -1,0 +1,8 @@
+.element-like {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: 20px;
+}

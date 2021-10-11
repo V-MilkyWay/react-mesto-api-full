@@ -1,0 +1,38 @@
+.form__loading {
+    display: none;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__loading {
+        margin-top: 31px;
+        margin-bottom: 37px;
+        width: 358px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .form__loading {
+        margin-top: 28px;
+        margin-bottom: 25px;
+        width: 238px;
+        height: 46px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
