@@ -30,7 +30,7 @@ your.mesto.nomoredomains.club
 
 ## Доменное имя бекенда
 
-your.mesto.nomoredomains.club
+api.your.mesto.nomoredomains.monster
 
 ## IP сервера
 
