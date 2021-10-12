@@ -17,3 +17,21 @@
 
 `npm run start` — запускает сервер   
 `npm run dev` — запускает сервер с hot-reload
+
+## Демонстрация проекта
+
+## ВАЖНО!!! - для корректной работы рекомендуется использовать браузер Mozila Firefox
+
+https://your.mesto.nomoredomains.club
+
+## Доменное имя фронтенда:
+
+your.mesto.nomoredomains.club
+
+## Доменное имя бекенда
+
+your.mesto.nomoredomains.club
+
+## IP сервера
+
+62.84.114.117

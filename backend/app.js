@@ -18,6 +18,7 @@ const { PORT = 3000 } = process.env;
 
 const app = express();
 
+// Настройки cors
 app.use(cors({
   origin: [
     'https://your.mesto.nomoredomains.club',
