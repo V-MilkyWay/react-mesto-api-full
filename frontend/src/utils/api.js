@@ -116,6 +116,7 @@ class Api {
 const api = new Api({
     baseUrl: 'https://api.your.mesto.nomoredomains.monster',
      // address: 'http://localhost:3000',
+    credentials: 'include',
     headers: {
       //  authorization: `Bearer ${document.cookie}`,
         'Content-Type': 'application/json'
