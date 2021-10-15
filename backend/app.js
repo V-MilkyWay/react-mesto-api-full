@@ -85,7 +85,7 @@ app.use((err, req, res) => {
       message: statusCode === 500
         ? 'На сервере произошла ошибка'
         : message,
-    });
+    }).json();
 });
 
 app.listen(PORT, () => {
