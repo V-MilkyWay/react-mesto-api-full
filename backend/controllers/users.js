@@ -162,7 +162,7 @@ module.exports.updateAvatar = (req, res, next) => {
 
 module.exports.login = (req, res, next) => {
   const { email, password } = req.body;
-  User.findOne({ email }).select('+password')
+  User.findOne({ email, password })
     .then((user) => {
       if (!user) {
         const err = new Error('Неправильные почта или пароль');
