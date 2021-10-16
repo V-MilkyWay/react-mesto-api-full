@@ -27,7 +27,7 @@ function App() {
     const [isAddPlacePopupOpen, setAddPlacePopupOpen] = React.useState(false);
     const [isEditAvatarPopupOpen, setEditAvatarPopupOpen] = React.useState(false);
     const [isEditAgreePopupOpen, setEditAgreePopupOpen] = React.useState(false);
-    const [selectedCard, setSelectedCard] = React.useState({ bool: false, link: '' });
+    const [selectedCard, setSelectedCard] = React.useState({ bool: false, link: '', name: '' });
     const [loggedIn, setLoggedIn] = React.useState(false);
     const [email, setEmail] = React.useState('');
     const [image, setImage] = React.useState('');
@@ -70,7 +70,8 @@ function App() {
     function handleCardClick(props) {
         setSelectedCard({
             bool: true,
-            link: props
+            link: props,
+            name: props,
         });
     }
     function handleEditAvatarClick() {
@@ -94,6 +95,7 @@ function App() {
         setSelectedCard({
             bool: false,
             link: '',
+            name: '',
         });
     }
 
