@@ -27,7 +27,7 @@ module.exports.createUser = (req, res, next) => {
         },
       }))
         .catch((err) => {
-          if (err.code === 11000 || err.code === 11001) {
+          if (err.code === 11000) {
             const errNew = new Error('Пользователь уже зарегистрирован');
             errNew.statusCode = 409;
 
